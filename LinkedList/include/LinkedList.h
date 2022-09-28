@@ -18,6 +18,7 @@ public:
     void add(int value);
     void insert(int index, int value);
     void remove(int index);
+    void sort();
     void clear();
     void printForwardOrder();
     void printReverseOrder();

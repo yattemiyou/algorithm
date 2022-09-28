@@ -77,6 +77,28 @@ void LinkedList::remove(int index)
     delete node;
 }
 
+void LinkedList::sort()
+{
+    Node *condition = nullptr;
+
+    while (condition != head)
+    {
+        Node *ptr = head;
+
+        while (ptr->next != condition)
+        {
+            if (ptr->value > ptr->next->value)
+            {
+                int temp = ptr->value;
+                ptr->value = ptr->next->value;
+                ptr->next->value = temp;
+            }
+            ptr = ptr->next;
+        }
+        condition = ptr;
+    }
+}
+
 void LinkedList::clear()
 {
     Node *ptr = head;

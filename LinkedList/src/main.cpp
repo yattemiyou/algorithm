@@ -47,6 +47,11 @@ int main()
             list.remove(index);
             list.printForwardOrder();
         }
+        else if (command == "sort")
+        {
+            list.sort();
+            list.printForwardOrder();
+        }
         else if (command == "clear")
         {
             list.clear();
