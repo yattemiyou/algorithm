@@ -3,7 +3,7 @@ TARGET = main.exe
 INCLUDE = -I./include
 
 SRCDIR = ./src
-SRCS = main.cpp
+SRCS = main.cpp LinkedList.cpp
 
 OBJDIR = ./obj
 OBJS = $(addprefix $(OBJDIR)/,$(SRCS:.cpp=.o))
