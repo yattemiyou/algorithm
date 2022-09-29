@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "g++ - アクティブ ファイルのビルドとデバッグ",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.exe",
+            "args": [
+                "50"
+            ],
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "preLaunchTask": "C/C++: g++ アクティブなファイルのビルド",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}

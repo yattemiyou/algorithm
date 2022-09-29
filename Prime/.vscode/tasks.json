@@ -1,0 +1,26 @@
+{
+    "tasks": [
+        {
+            "label": "C/C++: g++ アクティブなファイルのビルド",
+            "type": "cppbuild",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-Wall",
+                "-Wextra",
+                "-Werror",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

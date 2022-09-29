@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "LinkedList"
+		},
+		{
+			"path": "Prime"
 		}
 	]
 }
